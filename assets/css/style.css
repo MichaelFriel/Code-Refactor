@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Smooth scroll when anchor linking */
 }
 
 * {
@@ -17,6 +17,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s; /* Smooth transition of nav */
+    z-index: 1000; /* Nav above content */
 }
 
 .header h1 {

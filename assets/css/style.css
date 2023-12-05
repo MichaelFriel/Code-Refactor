@@ -10,6 +10,8 @@ html {
 
 body {
     background-color: #d9dcd6;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .header {
@@ -59,15 +61,18 @@ p {
     font-size: 16px;
 }
 
+
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
+    
 }
 
 .hero img {
     width: 100%; /* Image is full width*/
-    height: auto; /* Image has correct aspect ratio */
+    height: inherit; /* Image inherits height from hero, preventing overlap with other sections */
+   
    
 }
 
@@ -85,10 +90,12 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
     margin-right: 20px;
+    
     padding: 20px;
     clear: both;
     float: right;

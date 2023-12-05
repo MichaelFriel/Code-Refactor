@@ -10,8 +10,8 @@ html {
 
 body {
     background-color: #d9dcd6;
-    max-width: 1600px;
-    margin: 0 auto;
+    max-width: 1600px; /* max width added to avoid content stretching too far on larger screens */
+    margin: 0 auto; /* included in order to centre content on left and right, while removing any top and bottom padding. */
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
     width: 100%; 
     transition: top 0.3s; /* Smooth transition of nav */
     z-index: 1000; /* Nav above content */
-    max-width: 1600px;
+    max-width: 1600px; /* max width added to avoid content stretching too far on larger screens */
     
 }
 
@@ -37,7 +37,7 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {
+.header nav { /* updated to be nav rather than div */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,11 +45,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+.header nav ul { /* updated to be nav rather than div */
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav ul li { /* updated to be nav rather than div */
     display: inline-block;
     margin-left: 25px;
 }
@@ -74,6 +74,7 @@ p {
 .hero img {
     width: 100%; /* Image is full width*/
     height: inherit; /* Image inherits height from hero, preventing overlap with other sections */
+    /* removed image from .hero section and added into HTML*/
    
 }
 

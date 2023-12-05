@@ -24,6 +24,8 @@ body {
     width: 100%; 
     transition: top 0.3s; /* Smooth transition of nav */
     z-index: 1000; /* Nav above content */
+    max-width: 1600px;
+    
 }
 
 .header h1 {
@@ -73,7 +75,6 @@ p {
     width: 100%; /* Image is full width*/
     height: inherit; /* Image inherits height from hero, preventing overlap with other sections */
    
-   
 }
 
 .float-left {
@@ -95,7 +96,6 @@ p {
 
 .benefits {
     margin-right: 20px;
-    
     padding: 20px;
     clear: both;
     float: right;

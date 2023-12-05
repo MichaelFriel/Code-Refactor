@@ -16,8 +16,10 @@ The code is available to be cloned from the Code-Refactor repository, using git 
 The usage is very typical of a standard webpage, with a navigation to anchor you to important content. 
 
 ![Image showing bottom of the website without navigation bar while scrolling down](image.png)
+Image showing bottom of the website without navigation bar while scrolling down
 
 ![Image showing bottom of the website with navigation bar included while scrolling up](image-1.png)
+Image showing bottom of the website with navigation bar included while scrolling up
 
 ## License
 

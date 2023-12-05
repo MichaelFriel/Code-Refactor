@@ -54,6 +54,10 @@ body {
     margin-left: 25px;
 }
 
+.header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
